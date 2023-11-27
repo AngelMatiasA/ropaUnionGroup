@@ -44,7 +44,7 @@ const Products = () => {
         return (
             <>
                 <div className="buttons">
-                    <Button onClick={() => setFilter(data)} className='me-2' variant="outline-dark">All Brands</Button>
+                    <Button onClick={() => setFilter(data)} className='me-2' variant="outline-dark">Todas Las Marcas</Button>
                     <Button onClick={() => filterProduct("men's clothing")} className='me-2' variant="outline-dark">Men</Button>
                     <Button onClick={() => filterProduct("women's clothing")} className='me-2' variant="outline-dark">Women</Button>
                     <Button onClick={() => filterProduct("jewelery")} className='me-2' variant="outline-dark">Jewelery</Button>
@@ -60,7 +60,7 @@ const Products = () => {
                                     <Card.Text className='fw-bold'>
                                         $ {item.price}
                                     </Card.Text>
-                                    <Link to={`/products/${item.id}`}> <Button variant="dark">Buy Now</Button></Link>
+                                    <Link to={`/products/${item.id}`}> <Button variant="dark">Compra YA!</Button></Link>
                                 </Card.Body>
                             </Card>
                         </div>

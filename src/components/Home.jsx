@@ -10,12 +10,12 @@ const Home = () => {
                 <Card.Img src={banner} alt="banner" />
                 <Card.ImgOverlay>
                   <div className="container mt-5">
-                  <Card.Title className='display-5 fw-bolder'>Hurry ! Last Chance</Card.Title>
+                  <Card.Title className='display-5 fw-bolder'>Ropa Union Group</Card.Title>
                     <Card.Text className='lead fs-1'>
-                       Sales Ends Today
+                       Hoy se vende Todo!
                     </Card.Text>
-                    <Card.Text className='lead fs-4'>Buy Before It's Over</Card.Text>
-                    <Card.Text className='lead fs-2'>Shop Now <i className='fa fa-shopping-bag'></i></Card.Text>
+                    <Card.Text className='lead fs-4'>Compra Antes Que Se Acabe!!</Card.Text>
+                    <Card.Text className='lead fs-2'>Compra YA! <i className='fa fa-shopping-bag'></i></Card.Text>
                   </div>
                 </Card.ImgOverlay>
             </Card>

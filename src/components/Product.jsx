@@ -14,7 +14,7 @@ const Product = () => {
 
     const send = (item) => {
         dispatch(ADD(item))
-        alert("Item added successfully")
+        alert("Se agrego el producto!")
     }
     useEffect(() => {
         getProduct()
@@ -51,11 +51,11 @@ const Product = () => {
                         <div className="col-lg-6 mt-5">
                             <h4 className='texr-uppercase'>{product.category}</h4>
                             <h1 className='display-5'>{product.title}</h1>
-                            <p className='fw-bolder'>Rating {product.rating && product.rating.rate}</p>
+                            <p className='fw-bolder'>Calificacion {product.rating && product.rating.rate}</p>
                             <h3>$ {product.price}</h3>
                             <p>{product.description}</p>
-                            <Button onClick={() => send(product)} variant="dark">Add to Cart</Button>
-                            <Button className='ms-3' variant="dark">Go to Cart</Button>
+                            <Button onClick={() => send(product)} variant="dark">Agregar al Carrito </Button>
+                            <Button className='ms-3' variant="dark">Ir al Carrito</Button>
                         </div>
                     </div>
                 </div>
